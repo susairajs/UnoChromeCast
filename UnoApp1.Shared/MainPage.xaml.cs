@@ -67,12 +67,6 @@ namespace UnoApp1
                 foreach (var r in receivers)
                     CastDevices.Add(r);
             }
-            else
-            {
-                CastDevices.Add(new Receiver() { FriendlyName = "Living Room TV" });
-                CastDevices.Add(new Receiver() { FriendlyName = "Living Room Speaker" });
-            }
-            
 
             DataContext = this;
         }
