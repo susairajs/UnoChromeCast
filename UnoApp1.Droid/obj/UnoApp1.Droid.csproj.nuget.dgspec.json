@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Droid/UnoApp1.Droid.csproj": {}
+  },
+  "projects": {
+    "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Droid/UnoApp1.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Droid/UnoApp1.Droid.csproj",
+        "projectName": "UnoApp1.Droid",
+        "projectPath": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Droid/UnoApp1.Droid.csproj",
+        "packagesPath": "/Users/delpinsusairaj/.nuget/packages/",
+        "outputPath": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Droid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/delpinsusairaj/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[4.2.6, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.2.6, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[4.2.6, )"
+            },
+            "Uno.UniversalImageLoader": {
+              "target": "Package",
+              "version": "[1.9.33, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

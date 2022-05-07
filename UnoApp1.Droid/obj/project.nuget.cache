@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "0WT/IHmsgiUeGaIaFJSs1aIOrz/bF1prxebl+Cak/KlYqtQzl39h9ZuSrvnPv5aYq0EKLeLXNWX+sdfpvWsfaQ==",
+  "success": false,
+  "projectFilePath": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Droid/UnoApp1.Droid.csproj",
+  "expectedPackageFiles": [
+    "/Users/delpinsusairaj/.nuget/packages/commonservicelocator/2.0.5/commonservicelocator.2.0.5.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.configuration.binder/5.0.0/microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.logging.configuration/5.0.0/microsoft.extensions.logging.configuration.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.logging.console/5.0.0/microsoft.extensions.logging.console.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.options.configurationextensions/5.0.0/microsoft.extensions.options.configurationextensions.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/microsoft.io.recyclablememorystream/2.2.0/microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.collections.immutable/1.3.1/system.collections.immutable.1.3.1.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.memory/4.5.2/system.memory.4.5.2.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.text.encodings.web/5.0.0/system.text.encodings.web.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.core.extensions.logging/4.0.0-dev.7/uno.core.extensions.logging.4.0.0-dev.7.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.core.extensions.logging.singleton/4.0.0-dev.7/uno.core.extensions.logging.singleton.4.0.0-dev.7.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.diagnostics.eventing/2.0.1/uno.diagnostics.eventing.2.0.1.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.foundation.logging/4.2.6/uno.foundation.logging.4.2.6.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.sourcegenerationtasks/4.0.2/uno.sourcegenerationtasks.4.0.2.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.ui/4.2.6/uno.ui.4.2.6.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.ui.adapter.microsoft.extensions.logging/4.2.6/uno.ui.adapter.microsoft.extensions.logging.4.2.6.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.ui.remotecontrol/4.2.6/uno.ui.remotecontrol.4.2.6.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.universalimageloader/1.9.33/uno.universalimageloader.1.9.33.nupkg.sha512",
+    "/Users/delpinsusairaj/.nuget/packages/uno.wasm.websockets/1.1.0/uno.wasm.websockets.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Uno.UniversalImageLoader 1.9.33 is not compatible with monoandroid90 (MonoAndroid,Version=v9.0). Package Uno.UniversalImageLoader 1.9.33 supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "Uno.UniversalImageLoader",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
+}

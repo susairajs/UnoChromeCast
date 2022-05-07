@@ -1,0 +1,66 @@
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/UnoApp1.exe
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/UnoApp1.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/CommonServiceLocator.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/GoogleCast.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.DependencyInjection.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Logging.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Options.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Primitives.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Microsoft.IO.RecyclableMemoryStream.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/protobuf-net.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/protobuf-net.Core.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/System.Collections.Immutable.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/System.Diagnostics.DiagnosticSource.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/System.Reactive.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Core.Extensions.Logging.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Core.Extensions.Logging.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Core.Extensions.Logging.Singleton.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Core.Extensions.Logging.Singleton.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Diagnostics.Eventing.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Diagnostics.Eventing.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Extensions.Logging.OSLog.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Foundation.Logging.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Foundation.Logging.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Foundation.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Foundation.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Composition.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Composition.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Dispatching.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Dispatching.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.FluentTheme.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.FluentTheme.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.FluentTheme.v1.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.FluentTheme.v1.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.FluentTheme.v2.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.FluentTheme.v2.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Toolkit.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Toolkit.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Xaml.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.Xaml.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.Adapter.Microsoft.Extensions.Logging.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.RemoteControl.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Uno.UI.RemoteControl.pdb
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/bin/iPhoneSimulator/Debug/Zeroconf.dll
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_PartialAppManifest.items
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_BundleResourceWithLogicalName.items
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_PartialAppManifest.items
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/SplashScreen@2x.png
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/SplashScreen@3x.png
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/Default-568h@2x.png
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/en.lproj/Localizable.strings
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/UnoApp1.iOS.csproj.AssemblyReference.cache
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/UnoApp1.iOS.csproj.CoreCompileInputs.cache
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/UnoApp1.iOS.csproj.CopyComplete
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/UnoApp1.exe
+/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/iPhoneSimulator/Debug/UnoApp1.pdb

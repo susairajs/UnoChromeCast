@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/UnoApp1.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/UnoApp1.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/UnoApp1.iOS.csproj",
+        "projectName": "UnoApp1",
+        "projectPath": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/UnoApp1.iOS.csproj",
+        "packagesPath": "/Users/delpinsusairaj/.nuget/packages/",
+        "outputPath": "/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/delpinsusairaj/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "GoogleCast": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Uno.Extensions.Logging.OSLog": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[4.2.6, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.2.6, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[4.2.6, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
