@@ -13,15 +13,22 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Header="Enter Media URL" Text="{Binding CastUrl, Mode=TwoWay}" PlaceholderText="Enter Cast URL" />
-        <ListView Grid.Row="1" MinimumHeightRequest="100" SelectionMode="Single" ItemsSource="{Binding CastDevices}" SelectedItem="{Binding SelectedCastDevice}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Row="0" Grid.ColumnSpan="2" Header="Enter Media URL" Text="{Binding CastUrl, Mode=TwoWay}" PlaceholderText="Enter Cast URL" />
+        <ListView Grid.Row="1" Grid.ColumnSpan="2" MinimumHeightRequest="100" SelectionMode="Single" ItemsSource="{Binding CastDevices}" SelectedItem="{Binding SelectedCastDevice}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                      <TextBlock Text="{Binding FriendlyName}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button HorizontalAlignment="Center"  Grid.Row="2" Content="Start Cast" Click="Button_Click" />
+        <TextBlock Margin="20"  x:Name="lblNoReciverMessage" Grid.Row="2"/>
+        <Button HorizontalAlignment="Center"  Grid.Row="3" Grid.Column="0" Content="Start Cast" Click="StartCast_Click" />
+        <Button HorizontalAlignment="Center"  Grid.Row="3" Grid.Column="1" Content="Refresh" Click="Refresh_Click" />
     </Grid>
 </Page>

@@ -41,34 +41,48 @@ namespace UnoApp1
             GetReceivers();
         }
 
-        void Button_Click(System.Object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        void StartCast_Click(System.Object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             StartCasting();
+        }
+        void Refresh_Click(System.Object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            GetReceivers();
         }
 
         //Start Stream video
         async void StartCasting()
         {
             var sender = new Sender();
+            // Connect to the Chromecast
             await sender.ConnectAsync(SelectedCastDevice);
+            // Launch the default media receiver application
             var mediaChannel = sender.GetChannel<IMediaChannel>();
             await sender.LaunchAsync(mediaChannel);
+            // Load and play Big Buck Bunny video
             var mediaStatus = await mediaChannel.LoadAsync(
                 new MediaInformation() { ContentId = CastUrl });
         }
-        // Use the DeviceLocator to find all connected Chromecasts devices on our network
+
         private async Task GetReceivers()
         {
-            var receivers = await new DeviceLocator().FindReceiversAsync();
+            // Use the DeviceLocator to find all connected Chromecasts on our network
+            IEnumerable<IReceiver> receivers = await new DeviceLocator().FindReceiversAsync();
 
             CastDevices = new ObservableCollection<IReceiver>();
-            if (CastDevices.Count > 0)
+            if (receivers != null && receivers.ToList().Count > 0)
             {
                 foreach (var r in receivers)
                     CastDevices.Add(r);
             }
+            else
+            {
+                lblNoReciverMessage.Text = "No receiver is found";
+            }
 
             DataContext = this;
+
         }
+
     }
 }

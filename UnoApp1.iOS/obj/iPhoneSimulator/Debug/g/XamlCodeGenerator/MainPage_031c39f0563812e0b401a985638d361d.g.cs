@@ -81,6 +81,28 @@ namespace UnoApp1
 						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 15:14)
 					}
 					,
+					new global::Windows.UI.Xaml.Controls.RowDefinition
+					{
+						Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Auto)/* Windows.UI.Xaml.GridLength/, Auto, RowDefinition/Height */,
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 16:14)
+					}
+					,
+				}
+				,
+				ColumnDefinitions = 
+				{
+					new global::Windows.UI.Xaml.Controls.ColumnDefinition
+					{
+						Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 19:14)
+					}
+					,
+					new global::Windows.UI.Xaml.Controls.ColumnDefinition
+					{
+						Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 20:14)
+					}
+					,
 				}
 				,
 				// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 11:6)
@@ -91,14 +113,15 @@ namespace UnoApp1
 						IsParsing = true,
 						Header = @"Enter Media URL"/* object/, Enter Media URL, TextBox/Header */,
 						PlaceholderText = "Enter Cast URL"/* string/, Enter Cast URL, TextBox/PlaceholderText */,
-						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 17:10)
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 22:10)
 					}
-					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler1)(c3 => 
+					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler2)(c6 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c3, 0/* int/, 0, Grid/Row */);
-						c3.SetBinding(global::Windows.UI.Xaml.Controls.TextBox.TextProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"CastUrl"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, CastUrl, /_PositionalParameters */, Mode = global::Windows.UI.Xaml.Data.BindingMode.TwoWay/* Windows.UI.Xaml.Data.BindingMode/Windows.UI.Xaml.Data.BindingMode, TwoWay, Binding/Mode */ });
-												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c3, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
-						c3.CreationComplete();
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c6, 0/* int/, 0, Grid/Row */);
+						global::Windows.UI.Xaml.Controls.Grid.SetColumnSpan(c6, 2/* int/, 2, Grid/ColumnSpan */);
+						c6.SetBinding(global::Windows.UI.Xaml.Controls.TextBox.TextProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"CastUrl"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, CastUrl, /_PositionalParameters */, Mode = global::Windows.UI.Xaml.Data.BindingMode.TwoWay/* Windows.UI.Xaml.Data.BindingMode/Windows.UI.Xaml.Data.BindingMode, TwoWay, Binding/Mode */ });
+												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+						c6.CreationComplete();
 					}
 					))
 					,
@@ -110,15 +133,33 @@ namespace UnoApp1
 						SelectionMode = global::Windows.UI.Xaml.Controls.ListViewSelectionMode.Single/* Windows.UI.Xaml.Controls.ListViewSelectionMode/, Single, ListView/SelectionMode */,
 						ItemTemplate = 						new global::Windows.UI.Xaml.DataTemplate(this , __owner => 						new _MainPage_031c39f0563812e0b401a985638d361d_UnoApp1MainPageSC0().Build(__owner)
 						)						,
-						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 18:10)
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 23:10)
 					}
-					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler2)(c4 => 
+					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler3)(c7 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c4, 1/* int/, 1, Grid/Row */);
-						c4.SetBinding(global::Windows.UI.Xaml.Controls.ListView.ItemsSourceProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"CastDevices"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, CastDevices, /_PositionalParameters */ });
-												c4.SetBinding(global::Windows.UI.Xaml.Controls.ListView.SelectedItemProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"SelectedCastDevice"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, SelectedCastDevice, /_PositionalParameters */ });
-												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c4, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
-						c4.CreationComplete();
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c7, 1/* int/, 1, Grid/Row */);
+						global::Windows.UI.Xaml.Controls.Grid.SetColumnSpan(c7, 2/* int/, 2, Grid/ColumnSpan */);
+						c7.SetBinding(global::Windows.UI.Xaml.Controls.ListView.ItemsSourceProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"CastDevices"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, CastDevices, /_PositionalParameters */ });
+												c7.SetBinding(global::Windows.UI.Xaml.Controls.ListView.SelectedItemProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"SelectedCastDevice"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, SelectedCastDevice, /_PositionalParameters */ });
+												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+						c7.CreationComplete();
+					}
+					))
+					,
+					new global::Windows.UI.Xaml.Controls.TextBlock
+					{
+						IsParsing = true,
+						Name = "lblNoReciverMessage",
+						Margin = new global::Windows.UI.Xaml.Thickness(20)/* Windows.UI.Xaml.Thickness/, 20, TextBlock/Margin */,
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 30:10)
+					}
+					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler4)(c8 => 
+					{
+						nameScope.RegisterName("lblNoReciverMessage", c8);
+						this.lblNoReciverMessage = c8;
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c8, 2/* int/, 2, Grid/Row */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+						c8.CreationComplete();
 					}
 					))
 					,
@@ -127,44 +168,63 @@ namespace UnoApp1
 						IsParsing = true,
 						HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, Button/HorizontalAlignment */,
 						Content = @"Start Cast"/* object/, Start Cast, Button/Content */,
-						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 25:10)
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 31:10)
 					}
-					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler3)(c5 => 
+					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler5)(c9 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c5, 2/* int/, 2, Grid/Row */);
-						var Click_Button_Click_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
-						/* second level */ c5.Click += (Button_Click_sender,Button_Click_e) => (Click_Button_Click_That.Target as MainPage)?.Button_Click(Button_Click_sender,Button_Click_e);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c5, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
-						c5.CreationComplete();
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c9, 3/* int/, 3, Grid/Row */);
+						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c9, 0/* int/, 0, Grid/Column */);
+						var Click_StartCast_Click_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
+						/* second level */ c9.Click += (StartCast_Click_sender,StartCast_Click_e) => (Click_StartCast_Click_That.Target as MainPage)?.StartCast_Click(StartCast_Click_sender,StartCast_Click_e);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+						c9.CreationComplete();
+					}
+					))
+					,
+					new global::Windows.UI.Xaml.Controls.Button
+					{
+						IsParsing = true,
+						HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, Button/HorizontalAlignment */,
+						Content = @"Refresh"/* object/, Refresh, Button/Content */,
+						// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 32:10)
+					}
+					.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler5)(c10 => 
+					{
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c10, 3/* int/, 3, Grid/Row */);
+						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c10, 1/* int/, 1, Grid/Column */);
+						var Click_Refresh_Click_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
+						/* second level */ c10.Click += (Refresh_Click_sender,Refresh_Click_e) => (Click_Refresh_Click_That.Target as MainPage)?.Refresh_Click(Refresh_Click_sender,Refresh_Click_e);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+						c10.CreationComplete();
 					}
 					))
 					,
 				}
 			}
-			.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler4)(c6 => 
+			.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler6)(c11 => 
 			{
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
-				c6.CreationComplete();
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+				c11.CreationComplete();
 			}
 			))
 			;
 			
 			this
-			.GenericApply((c7 => 
+			.GenericApply((c12 => 
 			{
 				// Source /Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml (Line 1:2)
 				
-				// WARNING Property c7.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Page, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
+				// WARNING Property c12.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Page, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
 			}
 			))
-			.GenericApply((c8 => 
+			.GenericApply((c13 => 
 			{
 				// Class UnoApp1.MainPage
-				global::Uno.UI.ResourceResolverSingleton.Instance.ApplyResource(c8, global::Windows.UI.Xaml.Controls.Page.BackgroundProperty, "ApplicationPageBackgroundThemeBrush", isThemeResourceExtension: true, isHotReloadSupported: true, context: global::UnoApp1.GlobalStaticResources.__ParseContext_);
+				global::Uno.UI.ResourceResolverSingleton.Instance.ApplyResource(c13, global::Windows.UI.Xaml.Controls.Page.BackgroundProperty, "ApplicationPageBackgroundThemeBrush", isThemeResourceExtension: true, isHotReloadSupported: true, context: global::UnoApp1.GlobalStaticResources.__ParseContext_);
 				/* _isTopLevelDictionary:False */
-				this._component_0 = c8;
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
-				c8.CreationComplete();
+				this._component_0 = c13;
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c13, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+				c13.CreationComplete();
 			}
 			))
 			;
@@ -178,6 +238,18 @@ namespace UnoApp1
 			;
 		}
 		partial void OnInitializeCompleted();
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _lblNoReciverMessageSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.TextBlock lblNoReciverMessage
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.TextBlock)_lblNoReciverMessageSubject.ElementInstance;
+			}
+			set
+			{
+				_lblNoReciverMessageSubject.ElementInstance = value;
+			}
+		}
 		private class _MainPage_031c39f0563812e0b401a985638d361d_UnoApp1MainPageSC0
 		{
 			public _View Build(object __ResourceOwner_0)
@@ -188,13 +260,13 @@ namespace UnoApp1
 				new global::Windows.UI.Xaml.Controls.TextBlock
 				{
 					IsParsing = true,
-					// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 21:23)
+					// Source ../../../../../../UnoApp1.Shared/MainPage.xaml (Line 26:23)
 				}
-				.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler5)(c9 => 
+				.MainPage_031c39f0563812e0b401a985638d361d_XamlApply((MainPage_031c39f0563812e0b401a985638d361dXamlApplyExtensions.XamlApplyHandler4)(c14 => 
 				{
-					c9.SetBinding(global::Windows.UI.Xaml.Controls.TextBlock.TextProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"FriendlyName"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, FriendlyName, /_PositionalParameters */ });
-										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
-					c9.CreationComplete();
+					c14.SetBinding(global::Windows.UI.Xaml.Controls.TextBlock.TextProperty, new Windows.UI.Xaml.Data.Binding{ Path = @"FriendlyName"/* Windows.UI.Xaml.PropertyPath/Windows.UI.Xaml.PropertyPath, FriendlyName, /_PositionalParameters */ });
+										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c14, "file:////Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.Shared/MainPage.xaml");
+					c14.CreationComplete();
 				}
 				))
 				;
@@ -275,37 +347,44 @@ namespace UnoApp1
 			handler(instance);
 			return instance;
 		}
-		public delegate void XamlApplyHandler1(global::Windows.UI.Xaml.Controls.TextBox instance);
+		public delegate void XamlApplyHandler1(global::Windows.UI.Xaml.Controls.ColumnDefinition instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.TextBox MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.TextBox instance, XamlApplyHandler1 handler)
+		public static global::Windows.UI.Xaml.Controls.ColumnDefinition MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.ColumnDefinition instance, XamlApplyHandler1 handler)
 		{
 			handler(instance);
 			return instance;
 		}
-		public delegate void XamlApplyHandler2(global::Windows.UI.Xaml.Controls.ListView instance);
+		public delegate void XamlApplyHandler2(global::Windows.UI.Xaml.Controls.TextBox instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.ListView MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.ListView instance, XamlApplyHandler2 handler)
+		public static global::Windows.UI.Xaml.Controls.TextBox MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.TextBox instance, XamlApplyHandler2 handler)
 		{
 			handler(instance);
 			return instance;
 		}
-		public delegate void XamlApplyHandler3(global::Windows.UI.Xaml.Controls.Button instance);
+		public delegate void XamlApplyHandler3(global::Windows.UI.Xaml.Controls.ListView instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.Button MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.Button instance, XamlApplyHandler3 handler)
+		public static global::Windows.UI.Xaml.Controls.ListView MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.ListView instance, XamlApplyHandler3 handler)
 		{
 			handler(instance);
 			return instance;
 		}
-		public delegate void XamlApplyHandler4(global::Windows.UI.Xaml.Controls.Grid instance);
+		public delegate void XamlApplyHandler4(global::Windows.UI.Xaml.Controls.TextBlock instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.Grid MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler4 handler)
+		public static global::Windows.UI.Xaml.Controls.TextBlock MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.TextBlock instance, XamlApplyHandler4 handler)
 		{
 			handler(instance);
 			return instance;
 		}
-		public delegate void XamlApplyHandler5(global::Windows.UI.Xaml.Controls.TextBlock instance);
+		public delegate void XamlApplyHandler5(global::Windows.UI.Xaml.Controls.Button instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.TextBlock MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.TextBlock instance, XamlApplyHandler5 handler)
+		public static global::Windows.UI.Xaml.Controls.Button MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.Button instance, XamlApplyHandler5 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler6(global::Windows.UI.Xaml.Controls.Grid instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.Grid MainPage_031c39f0563812e0b401a985638d361d_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler6 handler)
 		{
 			handler(instance);
 			return instance;

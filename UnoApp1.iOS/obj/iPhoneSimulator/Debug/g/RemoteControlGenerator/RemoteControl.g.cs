@@ -8,11 +8,13 @@
 #pragma warning disable // Ignore code analysis warnings
 
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::1]", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::1c9c:6ecd:bf6f:b200]", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::c15:f7a0:104f:ffc6]", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("192.168.1.6", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::ac29:abff:fee7:da50]", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::4357:4c96:be2c:a193]", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::89d1:3bf1:21da:ec21]", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::c81e:71ff:feac:e28e]", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::7ef7:cfbb:fef5:617a]", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::fb17:3cd9:2090:82dd]", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("172.21.247.247", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::4d2e:809:bbb7:dadc]", 0)]
 [assembly: global::Uno.UI.RemoteControl.ProjectConfigurationAttribute(
 @"/Users/delpinsusairaj/Projects/UnoApp1/UnoApp1.iOS/UnoApp1.iOS.csproj",
 
